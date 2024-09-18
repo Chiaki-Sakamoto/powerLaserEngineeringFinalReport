@@ -1,0 +1,15 @@
+# ignore all directories and files
+*
+
+# remove specific directories from exclusion
+!/
+!/figure
+!/figure/*
+!/out
+
+# remove specific files from exclusion
+!**/.gitignore
+!**/*.md
+!**/*.tex
+!**/*.pdf
+!**/*.png
